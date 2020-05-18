@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TMDb Updater\n"
+"POT-Creation-Date: 2020-05-01 04:42-0500\n"
+"PO-Revision-Date: 2020-05-01 04:42-0500\n"
+"Last-Translator: Brenda Mayuri <brenda@themes.pe>\n"
+"Language-Team: Brenda Mayuri <brenda@themes.pe>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: tmdb-updater.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/app.php:32
+msgid "Processing"
+msgstr "Procesando"
+
+#: includes/app.php:33
+msgid "Completed Process"
+msgstr "Proceso Completado"
+
+#. Plugin Name of the plugin/theme
+#: includes/app.php:98 includes/app.php:99 includes/tool.php:2
+msgid "TMDb Updater"
+msgstr "TMDb Updater"
+
+#: includes/app.php:115
+msgid "Start update"
+msgstr "Iniciar actualización"
+
+#: includes/app.php:115
+msgid "Continue updating"
+msgstr "Continuar actualizando"
+
+#: includes/classes/tmdb.php:55
+msgid "Unknown error"
+msgstr "Error desconocido"
+
+#: includes/classes/tmdb.php:62
+msgid "Incomplete data"
+msgstr "Datos incompletos"
+
+#: includes/classes/tmdb.php:203
+msgid "movie"
+msgstr "película"
+
+#: includes/classes/tmdb.php:213 includes/classes/tmdb.php:302
+msgid "Undefined TMDb ID"
+msgstr "TMDb ID no está definido"
+
+#: includes/classes/tmdb.php:292
+msgid "show"
+msgstr "serie"
+
+#: includes/classes/tmdb.php:332
+msgid "season"
+msgstr "temporada"
+
+#: includes/classes/tmdb.php:342 includes/classes/tmdb.php:397
+msgid "Undefined data"
+msgstr "Datos indefinidos"
+
+#: includes/classes/tmdb.php:387
+msgid "episode"
+msgstr "episodio"
+
+#: includes/tool.php:3
+msgid ""
+"This tool allows you to update and correct TMDb metadata on your website."
+msgstr ""
+"Esta herramienta le permite actualizar y corregir metadatos TMDb en su sitio "
+"web."
+
+#: includes/tool.php:4
+msgid ""
+"Before executing any process, we recommend that you obtain a backup copy of "
+"the database."
+msgstr ""
+"Antes de ejecutar cualquier proceso, se recomienda obtener una copia de "
+"seguridad de la base de datos."
+
+#: includes/tool.php:5
+msgid "We recommend deactivating this plugin after you finish using it."
+msgstr ""
+"Te recomendamos que desactives este plugin después de que termines de usarlo."
+
+#: includes/tool.php:8
+msgid "TMDb Updater tool"
+msgstr "TMDb Updater tool"
+
+#: includes/tool.php:11
+msgid ""
+"We recommend completing the process to the end, if you need to pause the "
+"process, you can close this window and when it comes back it will continue."
+msgstr ""
+"Le recomendamos que complete el proceso hasta el final, si necesita pausar "
+"el proceso, puede cerrar esta ventana y cuando vuelva continuará."
+
+#: includes/tool.php:28
+msgid "Notice:"
+msgstr "Aviso:"
+
+#: includes/tool.php:28
+msgid "Before starting we need to calculate the total number of processes."
+msgstr "Antes de empezar necesitamos calcular el número total de procesos."
+
+#: includes/tool.php:30
+msgid "Calculate processes now"
+msgstr "Calcular procesos ahora"
+
+#: tmdb-updater.php:38
+msgid "This tool is only compatible with Dbmovies"
+msgstr "Esta herramienta solo es compatible con Dbmovies"
+
+#. Plugin URI of the plugin/theme
+msgid "http://doothemes.com/items/dooplay/"
+msgstr "http://doothemes.com/items/dooplay/"
+
+#. Description of the plugin/theme
+msgid ""
+"This tool will allow you to correct and update metadata for Dbmovies content."
+msgstr ""
+"Esta herramienta le permitirá corregir y actualizar los metadatos para el "
+"contenido de Dbmovies."
+
+#. Author of the plugin/theme
+msgid "Doothemes"
+msgstr "DooThemes"
+
+#. Author URI of the plugin/theme
+msgid "http://doothemes.com/"
+msgstr "http://doothemes.com/"

@@ -1,0 +1,43 @@
+body,
+div#page {
+    overflow: visible;
+}
+
+.vgse-modal-form.be-formulas .use-slower-execution-field, 
+.vgse-modal-form.be-formulas .posts-query, 
+.vgse-modal-form.be-formulas .formulas-action-tip-link {
+    display: none;
+}
+#vgse-wrapper button, 
+#vgse-wrapper .button {
+	font-size: 13px;
+}
+
+.remodal #action_name option[value="custom"] {
+    display: none;
+}
+
+.remodal #be-filters .advanced-filters li.post--in,
+.remodal #be-filters .advanced-filters li.post-name--in {
+    display: none;
+}
+#vgse-wrapper .vg-header-toolbar-inner {
+    overflow: auto;
+}
+#vgse-wrapper div#vg-header-toolbar.sticky {
+	padding: 0 !important;
+}
+/*Fix cell alignment issue on firefox*/
+#vgse-wrapper .htCore th {
+    height: 35px !important;
+}
+/*Make the toolbar mobile friendly*/
+#vgse-wrapper .vg-header-toolbar-inner {
+    min-width: 100% !important;
+}
+
+/*Remove the left padding that we added for the wp-admin left menu because
+The frontend sheet doesn't have wp-admin menus*/
+#vgse-wrapper div#vg-header-toolbar.sticky .vg-header-toolbar-inner {
+    padding-left: 10px !important;
+}

@@ -1,0 +1,153 @@
+# Copyright (C) 2019 WP Sheet Editor
+# This file is distributed under the same license as the WP Sheet Editor - Taxonomy Terms plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Sheet Editor - Taxonomy Terms 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/taxonomy-terms\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-09-09 23:41+0000\n"
+"PO-Revision-Date: 2019-09-29 01:51-0600\n"
+"X-Generator: Poedit 2.0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language: es\n"
+
+#. Plugin Name of the plugin
+msgid "WP Sheet Editor - Taxonomy Terms"
+msgstr "Editor Masivo - Taxonomías"
+
+#. Plugin URI of the plugin
+msgid ""
+"https://wpsheeteditor.com/go/taxonomy-terms-addon?utm_source=wp-"
+"admin&utm_medium=plugins-list&utm_campaign=taxonomy-terms"
+msgstr ""
+
+#. Description of the plugin
+msgid "Edit categories and tags in a spreadsheet."
+msgstr "Edita categorías y etiquetas en una hoja de cálculo"
+
+#. Author of the plugin
+msgid "WP Sheet Editor"
+msgstr "WP Sheet Editor"
+
+#. Author URI of the plugin
+msgid ""
+"https://wpsheeteditor.com/?utm_source=wp-admin&utm_medium=plugins-"
+"list&utm_campaign=taxonomy-terms"
+msgstr ""
+
+#: inc/bootstrap.php:21
+msgid "Edit categories, tags, attributes, taxonomies"
+msgstr "Editar categorías, etiquetas, atributos, taxonomías"
+
+#: inc/bootstrap.php:45
+msgid "Edit in a Spreadsheet"
+msgstr "Editar en una hoja de cálculo"
+
+#: inc/bootstrap.php:57
+msgid "ID"
+msgstr "ID"
+
+#: inc/bootstrap.php:69
+msgid "Hierarchy"
+msgstr "Jerarquía"
+
+#: inc/bootstrap.php:81
+msgid "Name"
+msgstr "Nombre"
+
+#: inc/bootstrap.php:89
+msgid "Slug"
+msgstr "Slug"
+
+#: inc/bootstrap.php:98
+msgid "Parent"
+msgstr "Padre"
+
+#: inc/bootstrap.php:112
+msgid "Status"
+msgstr "Estado"
+
+#: inc/bootstrap.php:129
+msgid "Count"
+msgstr "Cantidad"
+
+#: inc/bootstrap.php:139
+msgid "Description"
+msgstr "Descripción"
+
+#: inc/bootstrap.php:153
+msgid "Taxonomy"
+msgstr "Taxonomía"
+
+#: inc/bootstrap.php:162
+msgid "Display type"
+msgstr "Tipo de visualización"
+
+#: inc/bootstrap.php:169
+msgid "Default"
+msgstr "Predeterminado"
+
+#: inc/bootstrap.php:170
+msgid "Products"
+msgstr "Productos"
+
+#: inc/bootstrap.php:171
+msgid "Subcategories"
+msgstr "Subcategorías"
+
+#: inc/bootstrap.php:172
+msgid "Both"
+msgstr "Ambos"
+
+#: inc/bootstrap.php:177
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: inc/providers/term.php:330
+msgid "The item id does not exist. Error #89827j"
+msgstr "El ID del artículo no existe. Error #89827j"
+
+#: inc/sheet.php:115
+msgid "Parent keyword"
+msgstr "Palabra clave de artículo padre"
+
+#: inc/sheet.php:115
+msgid ""
+"We will display all the categories below parent that contains this keyword"
+msgstr ""
+"Mostraremos todas las categorías debajo del elemento padre que contienen "
+"esta palabra clave"
+
+#: inc/sheet.php:146
+msgid ""
+"We find items that have the same SLUG in the CSV and the WP Field.<br>Please "
+"select the CSV column that contains the slug.<br>You must import the slug "
+"column if you want to update existing categories, items without slug will be "
+"created as new."
+msgstr ""
+"Encontramos elementos que tienen el mismo SLUG en el CSV y en WP.<br>Por "
+"favor selecciona la columna CSV que contiene el slug.<br>Debes importar la "
+"columna de slug si quieres actualizar las categorías existentes, los "
+"elementos sin slug se crearán como nuevos."
+
+#: taxonomy-terms.php:76
+msgid ""
+"Please update the WP Sheet Editor plugin and all its extensions to the "
+"latest version, the CORE plugin should be version 2.8.3 or higher. The "
+"plugin \""
+msgstr ""
+"Por favor, actualiza el plugin Editor Masivo y todas sus extensiones a la "
+"última versión, el plugin CORE debe ser la versión 2.8.3 o superior. El "
+"plugin \""
+
+#: views/welcome-page-content.php:4
+msgid "Thank you for installing our plugin."
+msgstr "Gracias por instalar nuestro plugin."
+
+#: views/welcome-page-content.php:33
+msgid "You can open the Bulk Editor Now:  %s"
+msgstr "Puedes abrir el Editor Masivo ahora: %s"
