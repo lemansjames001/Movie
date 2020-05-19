@@ -239,6 +239,8 @@ function doo_li_genres(){
     $links = wp_list_categories($args);
     $links = str_replace('</a> (', '</a> <i>', $links);
     $links = str_replace(')', '</i>', $links);
+    $links = str_replace('<a', '<h3><a', $links );
+    $links = str_replace('</a>', '</a></h3>', $links );
     echo $links;
 }
 
