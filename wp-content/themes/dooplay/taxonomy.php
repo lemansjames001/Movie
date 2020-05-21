@@ -44,21 +44,14 @@ get_header(); ?>
 	</div>
 
 	<?php doo_pagination(); ?>
-
 	</div>
-
-
-
-
-	<?php get_template_part('inc/parts/sidebar'); ?>
-
-</div>
-
-
-
 	<div class="desc_category">
-
 		<?php echo category_description(); ?>
-
 	</div>
+	<?php get_template_part('inc/parts/sidebar'); ?>
+</div>
+<?php if(!$fullwid) {
+	dynamic_sidebar('footer_area_one');
+}
 
+echo '</div>'; get_footer(); ?>
