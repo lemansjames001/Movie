@@ -86,13 +86,13 @@ $runtime = doo_isset($postmeta, 'runtime');
 
 		</div>
 
-		<h3 href="<?php the_permalink() ?>"><div class="see"></div></h3>
+		<a href="<?php the_permalink() ?>"><div class="see"></div></a>
 
 	</div>
 
 	<div class="data">
 
-		<h3><h4 href="<?php the_permalink() ?>"><?php the_title(); ?></h4></h3>
+		<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
 
         <span><?php
 
