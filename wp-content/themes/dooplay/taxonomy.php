@@ -45,11 +45,13 @@ get_header(); ?>
 
 	<?php doo_pagination(); ?>
 	</div>
-	<div class="desc_category">
-		<?php echo category_description(); ?>
-	</div>
+	
 	<?php get_template_part('inc/parts/sidebar'); ?>
 </div>
+
+<div class="desc_category">
+		<?php echo category_description(); ?>
+	</div>
 <?php if(!$fullwid) {
 	dynamic_sidebar('footer_area_one');
 }

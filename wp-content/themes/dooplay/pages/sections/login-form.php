@@ -1,10 +1,10 @@
 <form id="dooplay_login_user" method="post">
 	<fieldset>
-		<label for="log"><?php _d('Username'); ?></label>
+		<label for="log"><?php _d('Usernamexxx'); ?></label>
 		<input type="text" name="log" id="user_login" value="<?php echo isset($_POST['username']) ? $_POST['username'] : false; ?>" required/>
 	</fieldset>
 	<fieldset>
-		<label for="pwd"><?php _d('Password'); ?></label>
+		<label for="pwd"><?php _d('Passwordxxx'); ?></label>
 		<input type="password" name="pwd" id="user_pass" value="<?php echo isset($_POST['password']) ? $_POST['password'] : false; ?>" required/>
 	</fieldset>
 	<fieldset>

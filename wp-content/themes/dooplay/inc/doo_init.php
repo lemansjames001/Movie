@@ -1054,7 +1054,7 @@ function doo_login_form(){
     <div class="login_box">
         <div class="box">
             <a id="c_loginbox"><i class="icon-close2"></i></a>
-            <h3>'. __d('Login to your account').'</h3>
+            <h3>'. __d('Login to your account xxx').'</h3>
             <form method="post" action="'.$action.'">
                 <fieldset class="user"><input type="text" name="log" placeholder="'.__d('Username').'"></fieldset>
                 <fieldset class="password"><input type="password" name="pwd" placeholder="'.__d('Password').'"></fieldset>
