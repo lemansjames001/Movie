@@ -222,7 +222,7 @@ if(cs_get_option('dynamicbg') == true) { ?>
 
                 <?php the_content(); ?>
 
-           
+              
             
                 <?php the_tags('<ul class="wp-tags colortagx"><li>','</li><li>','</li></ul>'); ?>
 
@@ -349,17 +349,55 @@ if(cs_get_option('dynamicbg') == true) { ?>
 
  <!-- Footer -->
 </div>
-	
-<div class="contentxxx">
+<div class="permalink">
+<a href="<?php the_permalink(); ?>" title="ดูหนังออนไลน์ <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ซับไทย &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ออนไลน์ &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>เต็มเรื่อง &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>HD &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="หนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ซับไทย &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ซับไทย &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ชนโรง &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดู <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ชนโรง &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ชนโรง &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>HD &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ฟรี &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ชนโรง &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ชัด &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดู <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>มาสเตอร์ &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>4K &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>HD &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>เต็มเรื่อง &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="หนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ซูม &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ออนไลน์ &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดู <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ซับไทย &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>เต็มเรื่อง &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>พากย์ไทย &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="หนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ออนไลน์ &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดู <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>หนัง &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ดูหนัง &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="ดูหนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ออนไลน์ &ensp;</a>
+<a href="<?php the_permalink(); ?>" title="หนัง <?php the_title_attribute(); ?>ซับไทย">ดูหนัง<?php the_title();  ?>ซับไทย &ensp;</a><br>
 
-<h2 class="font1">ดูหนังออนไลน์ เรื่อง <?php the_title(); ?></h2> <?php the_content(); ?> <p class="font2">ดูหนังออนไลน์ ทีวีออนไลน์ ทีวีสด ดูบอลออนไลน์ <a href="https://moviebkk.com/">MovieBKK</a>
-เรามีให้ทุกท่านได้รับชมกันแบบฟรีๆ ไม่เสียค่าสมาชิก อีกทั้งเรายังมี ช่องทีวีทั่วไป ช่องข่าว ช่องบันเทิงแล้วคุณจะไม่พลาด หนังสนุกๆ หนังใหม่ หนังชนโรง อีกต่อไป ดูหนังออนไลน์ <?php the_tags(); ?>  ลื่นไหลไม่มีสดุด พร้อมอัพเดท หนังใหม่ๆ ให้คุณได้เพลิดเพลินในทุกวันของคุณ</p><br>
- <h2 class="font1">ดูหนังออนไลน์ เรื่อง <?php the_title(); ?>ดูหนังออนไลน์ ทุกครั้งต้องนึกถึง  <a href="https://moviebkk.com/">ดูหนังออนไลน์</a> คมชัดสุงสุด ถึง4K อีกทั้งยังโหลดหนังได้ไว เราอัพเดท หนังใหม่ ให้คุณตลอด24ชั่วโมง
-</h2><br>
-<p class="font2">ดูหนังออนไลน์ ง่ายๆ อัพเดทหนังใหม่ทุกวันสามารถติดตามรับชมในรูปแบบ หนังออนไลน์ ได้ที่เว็บไซต์ <a href="https://moviebkk.com/">MovieBKK</a> การติดตามรับชม ดูหนัง <h2 class="font1">เรื่อง <?php the_title(); ?></h2> <p class="font2">ภายในเว็บไซต์ MovieBKK นั้น ทุกคนสามารถรับชมกันได้แบบฟรี ๆ ไม่ต้องเสียค่าใช้จ่าย แถมการติดตามรับชมในแต่ละครั้งคุณก็จะได้อรรถรสเหมือน ๆ กันได้เข้าไปดูในโรงภาพยนตร์อีกเช่นเดียวกัน เนื่องจากไม่มีโฆษณาคั่นตัวหนังให้ต้องวุ่นวายใจ คุณจะสามารถ</p><p class="font2"><?php the_tags(); ?></p> <p class="font2">ช่องกีฬา อีกมากมายหลากหลายรายการวมไปถึงการถ่ายทอดสดกีฬา ฟุตบอลสด เราก็มีให้ท่านได้รับชมกันอย่างต่อเนื่อง โหลดหนังไว โฆษณาน้อยดูหนังออนไลน์ รองรับทุกอุปกรณ์ทั้งคอมพิวเตอร์ มือถือ Android IPhone แท็บเล็ต Smart tv และอุปกรณ์ทุกชนิด</p>   
-<h2 class="font1">ดูหนังออนไลน์ <?php the_title(); ?> ที่ท่านชอบกันแบบฟรีๆ ไม่เสียค่าใช้จ่ายไม่มีโฆษณา</h2><br>
-<p class="font2">อีกทั้งเรายังมี ช่องทีวีทั่วไป ช่องข่าว ช่องบันเทิง ช่องกีฬา อีกมากมายหลากหลายรายการวมไปถึงการ ถ่ายทอดสดกีฬา ฟุตบอลสด หนังสงคราม | War เรารวบรวมหนังทั้งเก่ามากกว่า 10 ปี ที่ได้รับรางวัล เราอัพเดท หนังใหม่ ให้คุณรวบรวบ หนังออนไลน์ ไว้ให้คุณมากมายทั้ง หนังจีน หนังไทย หนังต่างประเทศ หนังซับไทย ทีวีซีรี่ เเละอื่นๆอีกมากมาย ให้คุณได้รับชมอย่างสะดวกสบาย  <a href="https://moviebkk.com/">MovieBKK</a> ให้ทุกท่านได้รับชม</p>
 
 </div>
+<br>
+
+<div class="contentxxx">
+
+<h2 class="font1">ดูหนังออนไลน์ เรื่อง <?php the_title(); ?></h2><br> <p><?php the_content(); ?><p>ดูหนังออนไลน์ ทีวีออนไลน์ ทีวีสด ดูบอลออนไลน์ <a href="https://moviebkk.com/">MovieBKK</a>
+เรามีให้ทุกท่านได้รับชมกันแบบฟรีๆ ไม่เสียค่าสมาชิก อีกทั้งเรายังมี ช่องทีวีทั่วไป ช่องข่าว ช่องบันเทิงแล้วคุณจะไม่พลาด หนังสนุกๆ หนังใหม่ หนังชนโรง อีกต่อไป ดูหนังออนไลน์ <a href="https://moviebkk.com/genre/drama-%e0%b8%ab%e0%b8%99%e0%b8%b1%e0%b8%87%e0%b8%94%e0%b8%a3%e0%b8%b2%e0%b8%a1%e0%b9%88%e0%b8%b2/">หนังดราม่า | Drama </a>
+<a href="https://moviebkk.com/genre/action-%e0%b8%ab%e0%b8%99%e0%b8%b1%e0%b8%87%e0%b8%9a%e0%b8%b9%e0%b9%8a/"> หนังบู๊ | Action </a> ลื่นไหลไม่มีสดุด พร้อมอัพเดท หนังใหม่ๆ ให้คุณได้เพลิดเพลินในทุกวันของคุณ</p><br>
+ <h2 class="font1">ดูหนังออนไลน์ เรื่อง <?php the_title(); ?>ดูหนังออนไลน์ ทุกครั้งต้องนึกถึง  <a href="https://moviebkk.com/">ดูหนังออนไลน์</a> คมชัดสุงสุด ถึง4K อีกทั้งยังโหลดหนังได้ไว เราอัพเดท หนังใหม่ ให้คุณตลอด24ชั่วโมง
+</h2><br>
+<p>ดูหนังออนไลน์ ง่ายๆ อัพเดทหนังใหม่ทุกวันสามารถติดตามรับชมในรูปแบบ หนังออนไลน์ ได้ที่เว็บไซต์ <a href="https://moviebkk.com/">MovieBKK</a> การติดตามรับชม ดูหนัง 
+เรื่อง <?php the_title(); ?>
+<p>ภายในเว็บไซต์ MovieBKK นั้น ทุกคนสามารถรับชมกันได้แบบฟรี ๆ ไม่ต้องเสียค่าใช้จ่าย แถมการติดตามรับชมในแต่ละครั้งคุณก็จะได้อรรถรสเหมือน ๆ กันได้เข้าไปดูในโรงภาพยนตร์อีกเช่นเดียวกัน เนื่องจากไม่มีโฆษณาคั่นตัวหนังให้ต้องวุ่นวายใจ คุณจะสามารถ
+            
+<a href="https://moviebkk.com/genre/horror-%e0%b8%ab%e0%b8%99%e0%b8%b1%e0%b8%87%e0%b8%aa%e0%b8%a2%e0%b8%ad%e0%b8%87%e0%b8%82%e0%b8%a7%e0%b8%b1%e0%b8%8d/">หนังสยองขวัญ | Horror</a> ช่องกีฬา อีกมากมายหลากหลายรายการวมไปถึงการถ่ายทอดสดกีฬา ฟุตบอลสด เราก็มีให้ท่านได้รับชมกันอย่างต่อเนื่อง โหลดหนังไว โฆษณาน้อยดูหนังออนไลน์ รองรับทุกอุปกรณ์ทั้งคอมพิวเตอร์ มือถือ Android IPhone แท็บเล็ต Smart tv และอุปกรณ์ทุกชนิด</p><br>   
+<h2 class="font1">ดูหนังออนไลน์ <?php the_title(); ?> ที่ท่านชอบกันแบบฟรีๆ ไม่เสียค่าใช้จ่ายไม่มีโฆษณา</h2><br>
+<p>อีกทั้งเรายังมี ช่องทีวีทั่วไป ช่องข่าว ช่องบันเทิง ช่องกีฬา อีกมากมายหลากหลายรายการวมไปถึงการ ถ่ายทอดสดกีฬา ฟุตบอลสด <a href="https://moviebkk.com/genre/war-%e0%b8%ab%e0%b8%99%e0%b8%b1%e0%b8%87%e0%b8%aa%e0%b8%87%e0%b8%84%e0%b8%a3%e0%b8%b2%e0%b8%a1/"> หนังสงคราม | War </a> เรารวบรวมหนังทั้งเก่ามากกว่า 10 ปี ที่ได้รับรางวัล เราอัพเดท หนังใหม่ ให้คุณรวบรวบ หนังออนไลน์ ไว้ให้คุณมากมายทั้ง หนังจีน หนังไทย หนังต่างประเทศ หนังซับไทย ทีวีซีรี่ เเละอื่นๆอีกมากมาย ให้คุณได้รับชมอย่างสะดวกสบาย  <a href="https://moviebkk.com/">MovieBKK</a> ให้ทุกท่านได้รับชม</p>
+
+</div>
+
 <!-- End Single -->
 
